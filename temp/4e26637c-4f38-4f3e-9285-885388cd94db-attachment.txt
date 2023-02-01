@@ -1,0 +1,5 @@
+INFO     case.log:requests_util.py:28 ----------接口请求开始----------
+INFO     case.log:requests_util.py:36 请求地址:http://47.108.163.23/stage-api/system/user/list?pageNum=1&pageSize=10
+INFO     case.log:requests_util.py:37 请求参数:{'userName': 'test02'}
+INFO     case.log:requests_util.py:38 接口返回信息:{"code":200,"msg":null,"data":{"pageNum":1,"pageTotal":1,"pageSize":10,"pageTotalCount":1,"start":0,"list":[{"tenantId":"1619956130479910914","revision":0,"createdBy":1,"createdTime":"2023-01-30 15:12:48","updatedBy":1,"updatedTime":"2023-01-30 15:16:42","delFlag":0,"remark":"测试","params":null,"userId":10,"userName":"test02","nickName":"test02","userType":1,"email":"123456@qq.com","phone":"18166484258","avatar":null,"password":"$2a$10$Y.umRWKLeF.xL4Tm8LFjQeVlO4gq0ulK4ysNBusnO3AT5E.E/cjo6","status":"0","loginIp":null,"loginDate":null,"tenant":null,"roles":null,"roleIds":null,"postIds":null,"roleId":null,"admin":false}]},"timestamp":"2023-02-01 20:25:53"}
+INFO     case.log:requests_util.py:39 --------------------------------------------------------------------接口请求结束--------------------------------------------------------------------

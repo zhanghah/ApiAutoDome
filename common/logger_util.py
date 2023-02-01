@@ -20,7 +20,7 @@ class LogUtil:
         fmt = '[%(asctime)s]  %(filename)s->{}  line:%(lineno)d  [%(levelname)s]  %(message)s'.format(logName)
         logFormat = logging.Formatter(fmt)
         # 日志写入的路径
-        filePath = os.getcwd() + '/log/' + logName
+        filePath = os.getcwd() + '/logs/' + logName
         # 指定日志写入的文件
         fileHandler = RotatingFileHandler(filePath, maxBytes=20*1024*1024, backupCount=10, encoding='utf-8')
         # 日志写入级别
