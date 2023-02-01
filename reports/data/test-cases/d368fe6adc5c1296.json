@@ -1,0 +1,92 @@
+{
+  "uid" : "d368fe6adc5c1296",
+  "name" : "test_02_search_user[caseInfo1]",
+  "fullName" : "case.test_api.TestApi#test_02_search_user",
+  "historyId" : "2414fc6c0bad9a13e68e01dec28b1243",
+  "time" : {
+    "start" : 1675239012363,
+    "stop" : 1675239012386,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1675239012021,
+      "stop" : 1675239012022,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "995851159e8a2959",
+      "name" : "log",
+      "source" : "995851159e8a2959.txt",
+      "type" : "text/plain",
+      "size" : 1174
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestApi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RU8TPQH"
+  }, {
+    "name" : "thread",
+    "value" : "37108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseInfo",
+    "value" : "{'api_name': '搜索用户', 'api_request': {'method': 'get', 'url': 'http://47.108.163.23/stage-api/system/user/list?pageNum=1&pageSize=10', 'data': {'userName': 'test02'}, 'headers': {'Accept': 'application/json, text/plain, */*', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiI0MThmZGViNS1lMzBlLTRhNTItODUxNC1mMjBhNTkzYzYwODQiLCJ1c2VybmFtZSI6InpxYjAxIn0.C6dVbYQW_hfRfzRsEgjRiDQZXe1qEqU5EAr-8zMPPbMK5emzxUP1-rap5iVNLcaa3OGLywYBMNNIJlUiJ8quBQ', 'Cookie': 'username=zqb01; rememberMe=true; tenantId=1619956130479910914; password=ZTf7x7UdvmsX/3NMo1PqwFLEvAFonXiNkjRQd/uMu0wuI4ldH2YNeDvswpOwC7shOSVQ2aHJ5Z3RMd1qKcgY1A==; Admin-Token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiI0MThmZGViNS1lMzBlLTRhNTItODUxNC1mMjBhNTkzYzYwODQiLCJ1c2VybmFtZSI6InpxYjAxIn0.C6dVbYQW_hfRfzRsEgjRiDQZXe1qEqU5EAr-8zMPPbMK5emzxUP1-rap5iVNLcaa3OGLywYBMNNIJlUiJ8quBQ; Admin-Expires-In=720'}}, 'api_validate': {'code': 200, 'status_code': 200}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d368fe6adc5c1296.json",
+  "parameterValues" : [ "{'api_name': '搜索用户', 'api_request': {'method': 'get', 'url': 'http://47.108.163.23/stage-api/system/user/list?pageNum=1&pageSize=10', 'data': {'userName': 'test02'}, 'headers': {'Accept': 'application/json, text/plain, */*', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiI0MThmZGViNS1lMzBlLTRhNTItODUxNC1mMjBhNTkzYzYwODQiLCJ1c2VybmFtZSI6InpxYjAxIn0.C6dVbYQW_hfRfzRsEgjRiDQZXe1qEqU5EAr-8zMPPbMK5emzxUP1-rap5iVNLcaa3OGLywYBMNNIJlUiJ8quBQ', 'Cookie': 'username=zqb01; rememberMe=true; tenantId=1619956130479910914; password=ZTf7x7UdvmsX/3NMo1PqwFLEvAFonXiNkjRQd/uMu0wuI4ldH2YNeDvswpOwC7shOSVQ2aHJ5Z3RMd1qKcgY1A==; Admin-Token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiI0MThmZGViNS1lMzBlLTRhNTItODUxNC1mMjBhNTkzYzYwODQiLCJ1c2VybmFtZSI6InpxYjAxIn0.C6dVbYQW_hfRfzRsEgjRiDQZXe1qEqU5EAr-8zMPPbMK5emzxUP1-rap5iVNLcaa3OGLywYBMNNIJlUiJ8quBQ; Admin-Expires-In=720'}}, 'api_validate': {'code': 200, 'status_code': 200}}" ]
+}

@@ -1,0 +1,246 @@
+{
+  "uid" : "1752eddd4fa0efac",
+  "name" : "test_02_search_user[caseInfo1]",
+  "fullName" : "case.test_api.TestApi#test_02_search_user",
+  "historyId" : "2414fc6c0bad9a13e68e01dec28b1243",
+  "time" : {
+    "start" : 1675239221313,
+    "stop" : 1675239221336,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 19,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1675239220959,
+      "stop" : 1675239220959,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bd76c5d7a0c3b6f0",
+      "name" : "log",
+      "source" : "bd76c5d7a0c3b6f0.txt",
+      "type" : "text/plain",
+      "size" : 1232
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestApi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RU8TPQH"
+  }, {
+    "name" : "thread",
+    "value" : "25700-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseInfo",
+    "value" : "{'api_name': '搜索用户', 'api_request': {'method': 'get', 'url': 'http://47.108.163.23/stage-api/system/user/list?pageNum=1&pageSize=10', 'data': {'userName': 'test02'}, 'headers': {'Accept': 'application/json, text/plain, */*', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiI0MThmZGViNS1lMzBlLTRhNTItODUxNC1mMjBhNTkzYzYwODQiLCJ1c2VybmFtZSI6InpxYjAxIn0.C6dVbYQW_hfRfzRsEgjRiDQZXe1qEqU5EAr-8zMPPbMK5emzxUP1-rap5iVNLcaa3OGLywYBMNNIJlUiJ8quBQ', 'Cookie': 'username=zqb01; rememberMe=true; tenantId=1619956130479910914; password=ZTf7x7UdvmsX/3NMo1PqwFLEvAFonXiNkjRQd/uMu0wuI4ldH2YNeDvswpOwC7shOSVQ2aHJ5Z3RMd1qKcgY1A==; Admin-Token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiI0MThmZGViNS1lMzBlLTRhNTItODUxNC1mMjBhNTkzYzYwODQiLCJ1c2VybmFtZSI6InpxYjAxIn0.C6dVbYQW_hfRfzRsEgjRiDQZXe1qEqU5EAr-8zMPPbMK5emzxUP1-rap5iVNLcaa3OGLywYBMNNIJlUiJ8quBQ; Admin-Expires-In=720'}}, 'api_validate': {'code': 200, 'status_code': 200}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f8140a2517266911",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675239053151,
+        "stop" : 1675239053174,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "39501239f9b08491",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675239028009,
+        "stop" : 1675239028031,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "d368fe6adc5c1296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675239012363,
+        "stop" : 1675239012386,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "3401c02af42c1bf3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238946830,
+        "stop" : 1675238946853,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "2fc2551b71ac1656",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238925875,
+        "stop" : 1675238925901,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "4e4df6b4a1b24e01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238889868,
+        "stop" : 1675238889889,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "f5fcab6118f5b08e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238760280,
+        "stop" : 1675238760303,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "7e7e2b2b0d3c597f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238612620,
+        "stop" : 1675238612645,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "918ea09f196f4649",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238494143,
+        "stop" : 1675238494165,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "42a2f1b01f2fab79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238404732,
+        "stop" : 1675238404775,
+        "duration" : 43
+      }
+    }, {
+      "uid" : "b2b9594c5d0a74e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238281994,
+        "stop" : 1675238282020,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "be9c73288545f05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238225609,
+        "stop" : 1675238225631,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "708ede9149d2686d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675237883263,
+        "stop" : 1675237883283,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "d74045992f28bc88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675237813052,
+        "stop" : 1675237813072,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "a534a7d867d0250d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675237361593,
+        "stop" : 1675237361616,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "686059d49714a3aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675237293073,
+        "stop" : 1675237293094,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "778983867935cad2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675229180883,
+        "stop" : 1675229180901,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "42a9f06d292c909b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675229163171,
+        "stop" : 1675229163192,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "cc5a413d527e4789",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675217817129,
+        "stop" : 1675217817151,
+        "duration" : 22
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1752eddd4fa0efac.json",
+  "parameterValues" : [ "{'api_name': '搜索用户', 'api_request': {'method': 'get', 'url': 'http://47.108.163.23/stage-api/system/user/list?pageNum=1&pageSize=10', 'data': {'userName': 'test02'}, 'headers': {'Accept': 'application/json, text/plain, */*', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiI0MThmZGViNS1lMzBlLTRhNTItODUxNC1mMjBhNTkzYzYwODQiLCJ1c2VybmFtZSI6InpxYjAxIn0.C6dVbYQW_hfRfzRsEgjRiDQZXe1qEqU5EAr-8zMPPbMK5emzxUP1-rap5iVNLcaa3OGLywYBMNNIJlUiJ8quBQ', 'Cookie': 'username=zqb01; rememberMe=true; tenantId=1619956130479910914; password=ZTf7x7UdvmsX/3NMo1PqwFLEvAFonXiNkjRQd/uMu0wuI4ldH2YNeDvswpOwC7shOSVQ2aHJ5Z3RMd1qKcgY1A==; Admin-Token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiI0MThmZGViNS1lMzBlLTRhNTItODUxNC1mMjBhNTkzYzYwODQiLCJ1c2VybmFtZSI6InpxYjAxIn0.C6dVbYQW_hfRfzRsEgjRiDQZXe1qEqU5EAr-8zMPPbMK5emzxUP1-rap5iVNLcaa3OGLywYBMNNIJlUiJ8quBQ; Admin-Expires-In=720'}}, 'api_validate': {'code': 200, 'status_code': 200}}" ]
+}

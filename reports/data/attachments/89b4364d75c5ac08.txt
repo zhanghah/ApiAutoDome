@@ -1,0 +1,1 @@
+[32mINFO    [0m case.log:requests_util.py:32 请求地址为http://47.108.163.23/stage-api/auth/login,请求参数为{"username": "zqb02", "password": "123456", "tenantId": "1619956130479910914"},接口返回信息为{"code":500,"msg":"登录用户：zqb02 不存在","data":null,"timestamp":"2023-02-01 15:42:42"}

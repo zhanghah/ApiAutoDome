@@ -1,0 +1,390 @@
+{
+  "uid" : "34df48da3ce6dcd6",
+  "name" : "test_01_login[caseInfo3]",
+  "fullName" : "case.test_api.TestApi#test_01_login",
+  "historyId" : "858aff751d1eece74c056633d6a7c337",
+  "time" : {
+    "start" : 1675239221265,
+    "stop" : 1675239221283,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 37,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1675239220959,
+      "stop" : 1675239220959,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ab018a32fed5b83",
+      "name" : "log",
+      "source" : "ab018a32fed5b83.txt",
+      "type" : "text/plain",
+      "size" : 674
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestApi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RU8TPQH"
+  }, {
+    "name" : "thread",
+    "value" : "25700-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseInfo",
+    "value" : "{'api_name': '租户id错误登录失败', 'api_request': {'method': 'POST', 'url': 'http://47.108.163.23/stage-api/auth/login', 'data': {'username': 'zqb01', 'password': '123456', 'tenantId': '1'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8'}}, 'api_validate': {'code': 500, 'status_code': 200, 'msg': '登录用户：zqb01 不存在'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b4abcbfc1cb44f8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675239053100,
+        "stop" : 1675239053122,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "b0507c7f743432fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675239027965,
+        "stop" : 1675239027983,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "b16c19d40a22471a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675239012315,
+        "stop" : 1675239012333,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "8604cb127e939c6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238946781,
+        "stop" : 1675238946802,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "19df05c27b76dd23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238925825,
+        "stop" : 1675238925844,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "d85bdaefd72bb53d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238889806,
+        "stop" : 1675238889835,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "58f3f487078d1d93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238760230,
+        "stop" : 1675238760251,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "82054441fb9eb3b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238612570,
+        "stop" : 1675238612589,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "d780c2d69b145498",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238494091,
+        "stop" : 1675238494111,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "237f981e6f02269",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238404683,
+        "stop" : 1675238404702,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "9b24ca2fab8e90d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238281926,
+        "stop" : 1675238281954,
+        "duration" : 28
+      }
+    }, {
+      "uid" : "91ff53506524d1f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675238225560,
+        "stop" : 1675238225580,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "d07cdb263c94fe2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675237883197,
+        "stop" : 1675237883216,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "c85411e51a986e43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675237813002,
+        "stop" : 1675237813024,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "1718613b7c1e5af6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675237361546,
+        "stop" : 1675237361567,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "bbdec24b3c149d65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675237293014,
+        "stop" : 1675237293032,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "78150fa0f1fa7618",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675229180840,
+        "stop" : 1675229180856,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "53729d78303a1f71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675229163121,
+        "stop" : 1675229163139,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "dd699af652f4ef3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675217817082,
+        "stop" : 1675217817103,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "8a896c1759c2e918",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675217796465,
+        "stop" : 1675217796483,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "94beed745659e004",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675217735929,
+        "stop" : 1675217735947,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "e48840d5c7d86d8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675217708898,
+        "stop" : 1675217709485,
+        "duration" : 587
+      }
+    }, {
+      "uid" : "fff4a8bc6bcd2c59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675217645041,
+        "stop" : 1675217645546,
+        "duration" : 505
+      }
+    }, {
+      "uid" : "e07f7e7964ddc8cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675216191596,
+        "stop" : 1675216191613,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "48fb2e591e4daada",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675216176014,
+        "stop" : 1675216176031,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "1de97ad6b25d24a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675216147299,
+        "stop" : 1675216147318,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "62e17a63ae54ac61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675215972612,
+        "stop" : 1675215972631,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "e4b281190965bd4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675215907577,
+        "stop" : 1675215907593,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "251962619ebe19c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675215868629,
+        "stop" : 1675215868646,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "d75abf5241aa299c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675215850909,
+        "stop" : 1675215850926,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "d26e7d600bbf9a4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675215788026,
+        "stop" : 1675215788046,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "79ef4cd0be743adf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675215776829,
+        "stop" : 1675215776847,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "1fdce7333b692062",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675215093445,
+        "stop" : 1675215093463,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "293118df25edcb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675215038789,
+        "stop" : 1675215038808,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "b230c885a926d49a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675215008385,
+        "stop" : 1675215008401,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "41a23620c59df9da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675214951701,
+        "stop" : 1675214951720,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "96af052e463a8bda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675214898335,
+        "stop" : 1675214898354,
+        "duration" : 19
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34df48da3ce6dcd6.json",
+  "parameterValues" : [ "{'api_name': '租户id错误登录失败', 'api_request': {'method': 'POST', 'url': 'http://47.108.163.23/stage-api/auth/login', 'data': {'username': 'zqb01', 'password': '123456', 'tenantId': '1'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8'}}, 'api_validate': {'code': 500, 'status_code': 200, 'msg': '登录用户：zqb01 不存在'}}" ]
+}

@@ -1,0 +1,92 @@
+{
+  "uid" : "306b0c6a851689fd",
+  "name" : "test_01_login[caseInfo0]",
+  "fullName" : "case.test_api.TestApi#test_01_login",
+  "historyId" : "2023a92b223ed11dd493168f91ee8c43",
+  "time" : {
+    "start" : 1675237358218,
+    "stop" : 1675237361392,
+    "duration" : 3174
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1675237358217,
+      "stop" : 1675237358217,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1fd361230f567d9d",
+      "name" : "log",
+      "source" : "1fd361230f567d9d.txt",
+      "type" : "text/plain",
+      "size" : 579
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestApi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RU8TPQH"
+  }, {
+    "name" : "thread",
+    "value" : "36640-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseInfo",
+    "value" : "{'api_name': '账号密码正确登录成功', 'api_request': {'method': 'POST', 'url': 'http://47.108.163.23/stage-api/auth/login', 'data': {'username': 'zqb01', 'password': '123456', 'tenantId': '1619956130479910914'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8'}}, 'api_validate': {'code': 200, 'status_code': 200}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "306b0c6a851689fd.json",
+  "parameterValues" : [ "{'api_name': '账号密码正确登录成功', 'api_request': {'method': 'POST', 'url': 'http://47.108.163.23/stage-api/auth/login', 'data': {'username': 'zqb01', 'password': '123456', 'tenantId': '1619956130479910914'}, 'headers': {'Content-Type': 'application/json;charset=UTF-8'}}, 'api_validate': {'code': 200, 'status_code': 200}}" ]
+}

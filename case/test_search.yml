@@ -1,0 +1,33 @@
+- 
+  api_name: 搜索zqb01用户 # 用例名称
+  api_request: # 请求信息
+    method: get # 请求类型
+    url: http://47.108.163.23/stage-api/system/user/list?pageNum=1&pageSize=10 # 请求接口
+    data: { # 请求数据
+      userName: 'zqb01'
+    } 
+    headers: { # 请求头
+      Accept: "application/json, text/plain, */*",
+      Authorization: "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiI0MThmZGViNS1lMzBlLTRhNTItODUxNC1mMjBhNTkzYzYwODQiLCJ1c2VybmFtZSI6InpxYjAxIn0.C6dVbYQW_hfRfzRsEgjRiDQZXe1qEqU5EAr-8zMPPbMK5emzxUP1-rap5iVNLcaa3OGLywYBMNNIJlUiJ8quBQ",
+      Cookie: "username=zqb01; rememberMe=true; tenantId=1619956130479910914; password=ZTf7x7UdvmsX/3NMo1PqwFLEvAFonXiNkjRQd/uMu0wuI4ldH2YNeDvswpOwC7shOSVQ2aHJ5Z3RMd1qKcgY1A==; Admin-Token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiI0MThmZGViNS1lMzBlLTRhNTItODUxNC1mMjBhNTkzYzYwODQiLCJ1c2VybmFtZSI6InpxYjAxIn0.C6dVbYQW_hfRfzRsEgjRiDQZXe1qEqU5EAr-8zMPPbMK5emzxUP1-rap5iVNLcaa3OGLywYBMNNIJlUiJ8quBQ; Admin-Expires-In=720"
+    }
+  api_validate: # 断言
+    code: 200
+    status_code: 200
+
+- 
+  api_name: 搜索用户 # 用例名称
+  api_request: # 请求信息
+    method: get # 请求类型
+    url: http://47.108.163.23/stage-api/system/user/list?pageNum=1&pageSize=10 # 请求接口
+    data: { # 请求数据
+      userName: 'test02'
+    } 
+    headers: { # 请求头
+      Accept: "application/json, text/plain, */*",
+      Authorization: "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiI0MThmZGViNS1lMzBlLTRhNTItODUxNC1mMjBhNTkzYzYwODQiLCJ1c2VybmFtZSI6InpxYjAxIn0.C6dVbYQW_hfRfzRsEgjRiDQZXe1qEqU5EAr-8zMPPbMK5emzxUP1-rap5iVNLcaa3OGLywYBMNNIJlUiJ8quBQ",
+      Cookie: "username=zqb01; rememberMe=true; tenantId=1619956130479910914; password=ZTf7x7UdvmsX/3NMo1PqwFLEvAFonXiNkjRQd/uMu0wuI4ldH2YNeDvswpOwC7shOSVQ2aHJ5Z3RMd1qKcgY1A==; Admin-Token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiI0MThmZGViNS1lMzBlLTRhNTItODUxNC1mMjBhNTkzYzYwODQiLCJ1c2VybmFtZSI6InpxYjAxIn0.C6dVbYQW_hfRfzRsEgjRiDQZXe1qEqU5EAr-8zMPPbMK5emzxUP1-rap5iVNLcaa3OGLywYBMNNIJlUiJ8quBQ; Admin-Expires-In=720"
+    }
+  api_validate: # 断言
+    code: 200
+    status_code: 200
