@@ -1,4 +1,0 @@
-[32mINFO    [0m case.log:requests_util.py:32 
-            请求地址:http://47.108.163.23/stage-api/auth/login,
-            请求参数:{"username": "zqb01", "password": "123456", "tenantId": "1619956130479910914"},
-            接口返回信息:{"code":200,"msg":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiIzYTNlYzA5OS1lMWUxLTQxZTAtYTg4Zi1kMDBlOTI5ZmFlYTgiLCJ1c2VybmFtZSI6InpxYjAxIn0.eZ3fx5qJ0NYqVbBUQTD4o2atIQce_VXzMSCUEuBSts2hXb_w3kIvRHCG7Ahg-Ddqamw4xssCFitoimkOZObGAQ","expires_in":720},"timestamp":"2023-02-01 15:57:06"}
