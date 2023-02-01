@@ -1,5 +1,0 @@
-INFO     case.log:requests_util.py:33 ----------接口请求开始----------
-INFO     case.log:requests_util.py:36 请求地址:http://47.108.163.23/stage-api/auth/login
-INFO     case.log:requests_util.py:37 请求参数:{"username": "zqb02", "password": "123456", "tenantId": "1619956130479910914"}
-INFO     case.log:requests_util.py:38 接口返回信息:{"code":500,"msg":"登录用户：zqb02 不存在","data":null,"timestamp":"2023-02-01 20:25:47"}
-INFO     case.log:requests_util.py:39 --------------------------------------------------------------------接口请求结束--------------------------------------------------------------------
