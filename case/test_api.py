@@ -1,6 +1,12 @@
+'''
+Author: 张前薄
+Date: 2023-02-01 08:42:41
+email: 1915579714@qq.com
+FilePath: \ApiAutoDome\case\test_api.py
+'''
 # 解决导包不成功
-import json
 import os
+from random import randint
 import sys
 path = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(path)
@@ -57,6 +63,9 @@ class TestApi:
             else: 
                 assert validate[v] == res.json()[v], '接口状态码为200'
         assert data['userName'] == res.json()['data']['list'][0]['userName'], '查询后的数据为{}'.format(data['userName'])
+
+    def test_03_random(self):
+        assert randint(1, 10) == 6
 
 if __name__ == '__main__':
     pytest.main(['-vs'])
