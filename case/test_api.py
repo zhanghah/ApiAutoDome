@@ -43,7 +43,7 @@ class TestApi:
         headers = caseInfo['api_request']['headers']
         validate = caseInfo['api_validate']
 
-        # 获取token
+        # 获取token并替换
         token = YamlUtil().read_extract_yaml()['token']
         headers['Authorization'] = token
 
