@@ -1,10 +1,15 @@
+'''
+Author: 张前薄
+Date: 2023-02-01 08:42:41
+email: 1915579714@qq.com
+FilePath: \ApiAutoDome\common\requests_util.py
+'''
 # 解决导包不成功
 import json
 import os
 import sys
 path = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(path)
-import json
 import requests
 
 

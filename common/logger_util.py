@@ -2,7 +2,7 @@
 Author: 张前薄
 Date: 2023-02-01 14:49:31
 email: 1915579714@qq.com
-FilePath: \pytestDome\common\logger_util.py
+FilePath: \ApiAutoDome\common\logger_util.py
 '''
 import logging
 from logging.handlers import RotatingFileHandler

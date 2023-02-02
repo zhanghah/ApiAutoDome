@@ -1,3 +1,9 @@
+'''
+Author: 张前薄
+Date: 2023-01-31 10:35:48
+email: 1915579714@qq.com
+FilePath: \ApiAutoDome\common\yaml_util.py
+'''
 import yaml
 import os 
 
@@ -6,7 +12,8 @@ class YamlUtil:
     def read_extract_yaml(self):
         path = os.getcwd() + '/extract.yml'
         with open(path, 'r', encoding='utf-8') as f:
-            value = yaml.load(stream=f, Loader=yaml.FullLoader)
+            # value = yaml.load(stream=f, Loader=yaml.FullLoader)
+            value = yaml.safe_load(f)
         return value
 
     # 写入extract.yml文件
@@ -28,7 +35,7 @@ class YamlUtil:
             case = yaml.load(stream=f, Loader=yaml.FullLoader)
         return case
 
-    # 写入测试用了
+    # 写入测试用例
     def write_case_yaml(self, data, path):
         path = os.getcwd() + '/case/' + path
         with open(path, 'a', encoding='utf-8') as f:
@@ -38,5 +45,4 @@ class YamlUtil:
 
     
 if __name__ == '__main__':
-    data = YamlUtil().read_case_yaml('test_search.yml')
-    YamlUtil().write_case_yaml(data, 'test.yml')
+    print(YamlUtil().read_extract_yaml())
