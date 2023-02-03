@@ -4,6 +4,7 @@ Date: 2023-02-01 08:42:41
 email: 1915579714@qq.com
 FilePath: \ApiAutoDome\case\test_api.py
 '''
+
 # 解决导包不成功
 import os
 from random import randint
@@ -38,7 +39,7 @@ class TestApi:
             if v == 'status_code':
                 assert validate[v] == res.status_code, 'code值为200'
             else:
-                assert validate[v] == res.json()[v]  
+                assert validate[v] == res.json()[v]
     
     # 获取查询测试用数据
     @pytest.mark.parametrize('caseInfo', YamlUtil().read_case_yaml('test_search.yml'))
