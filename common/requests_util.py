@@ -48,7 +48,8 @@ class RequestsUtil:
         
         
 
-# if __name__ == '__main__':
-#     logger = LogUtil().getlogger('case')
-#     logger.info('jjj')
+if __name__ == '__main__':
+    print(__file__)
+    # logger = LogUtil().getlogger('case')
+    # logger.info('jjj')
         
