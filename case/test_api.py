@@ -16,10 +16,10 @@ from common.yaml_util import YamlUtil
 from common.requests_util import RequestsUtil
 import pytest
 
-
 class TestApi:
     # 获取登录测试用例数据
     @pytest.mark.parametrize('caseInfo', YamlUtil().read_case_yaml('test_login.yml'))
+    @pytest.mark.smoke
     def test_01_login(self, caseInfo):
         method = caseInfo['api_request']['method']
         url = caseInfo['api_request']['url']
@@ -65,6 +65,7 @@ class TestApi:
                 assert validate[v] == res.json()[v], '接口状态码为200'
         assert data['userName'] == res.json()['data']['list'][0]['userName'], '查询后的数据为{}'.format(data['userName'])
 
+    @pytest.mark.smoke
     def test_03_random(self):
         assert randint(1, 10) == 6
 

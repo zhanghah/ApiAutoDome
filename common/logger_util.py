@@ -10,7 +10,7 @@ import os
 
 class LogUtil:
     
-    # 保存日志信息
+    # 保存并输出日志信息
     def getlogger(self, logName):
         logger = logging.getLogger(logName)
         # 收集日志级别

@@ -30,18 +30,18 @@ class RequestsUtil:
         method = str(method).lower()
         if method == 'get':
             # 写入请求日志
-            RequestsUtil().logger.info('----------接口请求开始----------')
+            RequestsUtil().logger.info('-----------------------------------------------------接口请求开始-----------------------------------------------------')
             res = RequestsUtil.session.request(method, url=url, params=data, **kwargs)
         else:
             data = json.dumps(data)
             # 写入请求日志
-            RequestsUtil().logger.info('----------接口请求开始----------')
+            RequestsUtil().logger.info('-----------------------------------------------------接口请求开始-----------------------------------------------------')
             res = RequestsUtil.session.request(method, url=url, data=data, **kwargs)
         # 写入请求日志
         RequestsUtil().logger.info('请求地址:{}'.format(url))
         RequestsUtil().logger.info('请求参数:{}'.format(data))
         RequestsUtil().logger.info('接口返回信息:{}'.format(res.text))
-        RequestsUtil().logger.info('--------------------------------------------------------------------接口请求结束--------------------------------------------------------------------')
+        RequestsUtil().logger.info('-----------------------------------------------------接口请求结束-----------------------------------------------------\n')
 
         return res
 
