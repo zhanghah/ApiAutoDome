@@ -1300,3 +1300,147 @@
 [2023-02-09 17:00:40,968]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"登录用户：zqb01 不存在","data":null,"timestamp":"2023-02-09 17:00:42"}
 [2023-02-09 17:00:40,969]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
 
+[2023-02-10 09:27:55,904]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 09:27:56,068]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 09:27:56,069]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "123456", "tenantId": "1619956130479910914"}
+[2023-02-10 09:27:56,069]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":200,"msg":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiIxOTkxNGY1Ni04YTE4LTQwYWYtYjBiYy1jMzc5YmIyOGMzOWYiLCJ1c2VybmFtZSI6InpxYjAxIn0.ERo-qEnmiYw27ef1ri6-iYsvMZxUwdCIMWWXrFNww3fowLlZz-NHxivXroE7NkHqtkQIApuhfEbfq4iT7b3s4A","expires_in":720},"timestamp":"2023-02-10 09:27:56"}
+[2023-02-10 09:27:56,069]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 09:27:56,073]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 09:27:56,092]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 09:27:56,093]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb02", "password": "123456", "tenantId": "1619956130479910914"}
+[2023-02-10 09:27:56,093]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"登录用户：zqb02 不存在","data":null,"timestamp":"2023-02-10 09:27:56"}
+[2023-02-10 09:27:56,093]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 09:27:56,097]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 09:27:56,217]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 09:27:56,217]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "1234561", "tenantId": "1619956130479910914"}
+[2023-02-10 09:27:56,218]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"用户不存在/密码错误","data":null,"timestamp":"2023-02-10 09:27:56"}
+[2023-02-10 09:27:56,218]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 09:27:56,221]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 09:27:56,239]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 09:27:56,240]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "123456", "tenantId": "1"}
+[2023-02-10 09:27:56,240]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"登录用户：zqb01 不存在","data":null,"timestamp":"2023-02-10 09:27:56"}
+[2023-02-10 09:27:56,240]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:02:36,281]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:02:36,426]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:02:36,427]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "123456", "tenantId": "1619956130479910914"}
+[2023-02-10 10:02:36,427]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":200,"msg":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiJmNmQ0NjllOC02ZmY2LTQ1YjYtOTUzZi0zYWYyZmFmM2QwMTYiLCJ1c2VybmFtZSI6InpxYjAxIn0.rVCMkHOkQVoE3wVYSpSxGXOaFhXQJ-e1OfouDTezKpetcKTcLI2u7n7LrHsFequ-Bf2gWPQdDyrwKxFNOWkg3A","expires_in":720},"timestamp":"2023-02-10 10:02:36"}
+[2023-02-10 10:02:36,427]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:02:36,433]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:02:36,453]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:02:36,454]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb02", "password": "123456", "tenantId": "1619956130479910914"}
+[2023-02-10 10:02:36,454]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"登录用户：zqb02 不存在","data":null,"timestamp":"2023-02-10 10:02:36"}
+[2023-02-10 10:02:36,454]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:02:36,457]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:02:36,576]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:02:36,576]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "1234561", "tenantId": "1619956130479910914"}
+[2023-02-10 10:02:36,577]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"用户不存在/密码错误","data":null,"timestamp":"2023-02-10 10:02:36"}
+[2023-02-10 10:02:36,577]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:02:36,580]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:02:36,601]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:02:36,601]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "123456", "tenantId": "1"}
+[2023-02-10 10:02:36,602]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"登录用户：zqb01 不存在","data":null,"timestamp":"2023-02-10 10:02:36"}
+[2023-02-10 10:02:36,602]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:02:49,713]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:02:49,855]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:02:49,855]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "123456", "tenantId": "1619956130479910914"}
+[2023-02-10 10:02:49,855]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":200,"msg":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiI5MTQ4Yjk1NC1lZTZhLTQxYWUtOWRmOS1kYmRmMDJjY2EyZDIiLCJ1c2VybmFtZSI6InpxYjAxIn0.KN4N75lQAHjYUfWetb5nlDI8DwCg6YODwgbfLu8RxUT8BKDdH1QG7Z0A9sMKD0xiW6sDHyx_GhZFteuFoZJVsA","expires_in":720},"timestamp":"2023-02-10 10:02:49"}
+[2023-02-10 10:02:49,856]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:02:49,859]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:02:49,877]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:02:49,879]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb02", "password": "123456", "tenantId": "1619956130479910914"}
+[2023-02-10 10:02:49,879]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"登录用户：zqb02 不存在","data":null,"timestamp":"2023-02-10 10:02:49"}
+[2023-02-10 10:02:49,879]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:02:49,882]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:02:49,999]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:02:50,000]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "1234561", "tenantId": "1619956130479910914"}
+[2023-02-10 10:02:50,000]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"用户不存在/密码错误","data":null,"timestamp":"2023-02-10 10:02:50"}
+[2023-02-10 10:02:50,000]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:02:50,003]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:02:50,023]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:02:50,023]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "123456", "tenantId": "1"}
+[2023-02-10 10:02:50,024]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"登录用户：zqb01 不存在","data":null,"timestamp":"2023-02-10 10:02:50"}
+[2023-02-10 10:02:50,024]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:03:50,557]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:03:50,707]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:03:50,707]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "123456", "tenantId": "1619956130479910914"}
+[2023-02-10 10:03:50,707]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":200,"msg":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiI5MjgwYzdjYi0zNjRlLTQ3ODctOWNlNC03ODVhZWQ4N2NmN2QiLCJ1c2VybmFtZSI6InpxYjAxIn0.-BKYqgCcFz8ARA86ZOSAJ7R99AzDE3ryBxnHgA9uhmE4OicTn0JpW2TdlTjfMP6alFkr1dcsDdKIyNmzIcdSyA","expires_in":720},"timestamp":"2023-02-10 10:03:50"}
+[2023-02-10 10:03:50,713]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:03:50,717]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:03:50,735]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:03:50,736]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb02", "password": "123456", "tenantId": "1619956130479910914"}
+[2023-02-10 10:03:50,736]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"登录用户：zqb02 不存在","data":null,"timestamp":"2023-02-10 10:03:50"}
+[2023-02-10 10:03:50,736]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:03:50,739]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:03:50,897]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:03:50,897]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "1234561", "tenantId": "1619956130479910914"}
+[2023-02-10 10:03:50,898]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"用户不存在/密码错误","data":null,"timestamp":"2023-02-10 10:03:50"}
+[2023-02-10 10:03:50,898]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:03:50,903]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:03:50,926]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:03:50,927]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "123456", "tenantId": "1"}
+[2023-02-10 10:03:50,927]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"登录用户：zqb01 不存在","data":null,"timestamp":"2023-02-10 10:03:50"}
+[2023-02-10 10:03:50,927]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:03:54,420]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:03:54,562]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:03:54,562]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "123456", "tenantId": "1619956130479910914"}
+[2023-02-10 10:03:54,563]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":200,"msg":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiI3NTA0N2Q0Ni1lN2JmLTQzYjUtYTJlOS1hZGVkMGNiM2YyY2IiLCJ1c2VybmFtZSI6InpxYjAxIn0.ywolsiZIzs5AB211sFVOsQDX9V9KZUuEM4sQfGw8k_os5kv4lybTocH3ladiQG9JdCXkNjRSMhjRYtkXt8-9mQ","expires_in":720},"timestamp":"2023-02-10 10:03:54"}
+[2023-02-10 10:03:54,563]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:03:54,567]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:03:54,587]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:03:54,587]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb02", "password": "123456", "tenantId": "1619956130479910914"}
+[2023-02-10 10:03:54,588]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"登录用户：zqb02 不存在","data":null,"timestamp":"2023-02-10 10:03:54"}
+[2023-02-10 10:03:54,588]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:03:54,591]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:03:54,709]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:03:54,709]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "1234561", "tenantId": "1619956130479910914"}
+[2023-02-10 10:03:54,711]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"用户不存在/密码错误","data":null,"timestamp":"2023-02-10 10:03:54"}
+[2023-02-10 10:03:54,711]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:03:54,714]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:03:54,734]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:03:54,734]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "123456", "tenantId": "1"}
+[2023-02-10 10:03:54,735]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"登录用户：zqb01 不存在","data":null,"timestamp":"2023-02-10 10:03:54"}
+[2023-02-10 10:03:54,735]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:04:07,750]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:04:07,895]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:04:07,895]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "123456", "tenantId": "1619956130479910914"}
+[2023-02-10 10:04:07,896]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":200,"msg":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo4LCJ0ZW5hbnRJRCI6MTYxOTk1NjEzMDQ3OTkxMDkxNCwidXNlcl9rZXkiOiIxNTc2MTdiMC0yMmY3LTQzNzMtYTM5Ni1iMTE3OTdlMDUzZDkiLCJ1c2VybmFtZSI6InpxYjAxIn0.11YOjUVNo17BhjlWN5aexgUKZJGEHaQATdRJjeSU-m9C1uLMu5R3yxGMY_TSXhCYJ6W85EjH24Y-8rkQeIbyZg","expires_in":720},"timestamp":"2023-02-10 10:04:07"}
+[2023-02-10 10:04:07,896]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:04:07,900]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:04:07,921]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:04:07,921]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb02", "password": "123456", "tenantId": "1619956130479910914"}
+[2023-02-10 10:04:07,922]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"登录用户：zqb02 不存在","data":null,"timestamp":"2023-02-10 10:04:07"}
+[2023-02-10 10:04:07,922]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:04:07,925]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:04:08,049]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:04:08,050]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "1234561", "tenantId": "1619956130479910914"}
+[2023-02-10 10:04:08,050]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"用户不存在/密码错误","data":null,"timestamp":"2023-02-10 10:04:08"}
+[2023-02-10 10:04:08,051]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+
+[2023-02-10 10:04:08,054]  requests_util.py->case.log  line:38  [INFO]  -----------------------------------------------------接口请求开始-----------------------------------------------------
+[2023-02-10 10:04:08,075]  requests_util.py->case.log  line:41  [INFO]  请求地址:http://47.108.163.23/stage-api/auth/login
+[2023-02-10 10:04:08,075]  requests_util.py->case.log  line:42  [INFO]  请求参数:{"username": "zqb01", "password": "123456", "tenantId": "1"}
+[2023-02-10 10:04:08,076]  requests_util.py->case.log  line:43  [INFO]  接口返回信息:{"code":500,"msg":"登录用户：zqb01 不存在","data":null,"timestamp":"2023-02-10 10:04:08"}
+[2023-02-10 10:04:08,076]  requests_util.py->case.log  line:44  [INFO]  -----------------------------------------------------接口请求结束-----------------------------------------------------
+

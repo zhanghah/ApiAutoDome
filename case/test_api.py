@@ -16,6 +16,7 @@ from common.yaml_util import YamlUtil
 from common.requests_util import RequestsUtil
 import pytest
 
+
 class TestApi:
     # 获取登录测试用例数据
     @pytest.mark.parametrize('caseInfo', YamlUtil().read_case_yaml('test_login.yml'))
